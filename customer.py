@@ -4,6 +4,7 @@ class Customer:
         self.name = name
         self.cart = cart
 
+    # Affiche le client et son panier
     def display_customer(self):
         print("=======================================")
         print(f"Client: {self.firstname} {self.name}")

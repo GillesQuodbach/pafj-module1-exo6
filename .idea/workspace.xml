@@ -8,7 +8,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/au_bon_marche.py" beforeDir="false" afterPath="$PROJECT_DIR$/au_bon_marche.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/cart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart_item.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/customer.py" beforeDir="false" afterPath="$PROJECT_DIR$/customer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/product.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
