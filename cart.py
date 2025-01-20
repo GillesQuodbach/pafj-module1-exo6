@@ -16,8 +16,11 @@ class Cart:
         stock_dictionary[product_name].quantity -= quantity
 
     def display_cart(self):
+        cart_total_price = 0
         for name, quantity in self.items.items():
             price = stock_dictionary[name].price
             total_price = price * quantity
+            cart_total_price += total_price
             print(f"{name}, {quantity}, prix: {total_price}€")
-            # print(product_data)
+        print(f"Montant total du panier: {cart_total_price}€")
+
