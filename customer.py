@@ -1,5 +1,8 @@
+from cart import Cart
+
+
 class Customer:
-    def __init__(self, firstname, name, cart):
+    def __init__(self, firstname: str, name: str, cart: Cart):
         self.firstname = firstname
         self.name = name
         self.cart = cart

@@ -11,7 +11,7 @@ class Cart:
         self.date = datetime.datetime.now()
 
     # Ajout d'un produit au panier
-    def add_item(self, product_name, quantity):
+    def add_item(self, product_name: str, quantity: int):
         # Vérifie si l'objet Product est déjà dans le panier
         self.items[product_name] = quantity
         stock_dictionary[product_name].quantity -= quantity

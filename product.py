@@ -1,6 +1,8 @@
+from typing import Dict
+
 
 class Product:
-    def __init__(self, name, price, quantity, part_or_kg):
+    def __init__(self, name: str, price: float, quantity: int, part_or_kg: str):
         self.name = name
         self.price = price
         self.quantity = quantity
@@ -36,7 +38,7 @@ stock_list = [
 ]
 
 # Transformation de la liste des produits en dictionnaire
-stock_dictionary = {}
+stock_dictionary: Dict[str, Product] = {}
 
 for product in stock_list:
     stock_dictionary[product.name] = product
